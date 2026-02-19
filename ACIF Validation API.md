@@ -6,7 +6,7 @@
 
 This API spec was initially drafted by Daniel Brackett of Extreme Reach and donated to IAB Tech Lab for further development by the [Advanced TV Commit Group](https://iabtechlab.com/working-groups/advanced-tv-commit-group/) to support Tech Lab’s Ad Creative ID Framework (ACIF). 
 
-Please contact [support@iabtechlab.com](support@iabtechlab.com) if you have any questions or comments about this document. This document and other related resources can be found on the IAB Tech Lab website at: [iabtechlab.com](iabtechlab.com) 
+Please contact support@iabtechlab.com if you have any questions or comments about this document. This document and other related resources can be found on the IAB Tech Lab website at: [https://iabtechlab.com](https://iabtechlab.com)
 
 ### IAB Tech Lab Lead: 
 Katie Stroud, Senior Product Manager 
@@ -25,35 +25,35 @@ F/RAND which means fair, reasonable, and non-discriminatory terms, denoting “a
 
 ## Table of Contents
 
-- Executive Summary
-  - Audience
-    - Ad Registration Authorities
-    - Ad Technology Platforms
-- About ACIF
-- API Overview
-  - Terminology
-  - API Components
-    - Ad Registries
-    - Globally Unique Ad Creative Identifiers
-    - UniversalAdId Validation
-    - Ad registration for ads with multiple creative 
-- The Validation Request
-  - Where to Find the UniversalAdId
-  - About the UniversalAdId in VAST
-  - When and Where to Send a Validation Request
-  - URL Character Escaping
-  - UniversalAddId Validation
-  - Open Validation with HEAD Request
-- The Validation Response
-  - Object: UniversalAdId
-  - Object: Relationship
-  - Error Codes
-- Testing Sandbox
-- Implementation Over Existing APIs
-- Examples
-  - UniversalAdId Validation
-  - Open UniversalAdId Validation
-  - Validation of Unknown UniversalAdId
+- [Executive Summary](https://github.com/InteractiveAdvertisingBureau/ACIF/blob/main/ACIF%20Validation%20API.md#executive-summary)
+  - [Audience](https://github.com/InteractiveAdvertisingBureau/ACIF/blob/main/ACIF%20Validation%20API.md#audience)
+    - [Ad Registration Authorities](https://github.com/InteractiveAdvertisingBureau/ACIF/blob/main/ACIF%20Validation%20API.md#ad-registration-authorities)
+    - [Ad Technology Platforms](https://github.com/InteractiveAdvertisingBureau/ACIF/blob/main/ACIF%20Validation%20API.md#ad-technology-platforms)
+- [About ACIF](https://github.com/InteractiveAdvertisingBureau/ACIF/blob/main/ACIF%20Validation%20API.md#about-acif)
+- [API Overview](https://github.com/InteractiveAdvertisingBureau/ACIF/blob/main/ACIF%20Validation%20API.md#api-overview)
+  - [Terminology](https://github.com/InteractiveAdvertisingBureau/ACIF/blob/main/ACIF%20Validation%20API.md#terminology)
+  - [API Components](https://github.com/InteractiveAdvertisingBureau/ACIF/blob/main/ACIF%20Validation%20API.md#api-components)
+    - [Ad Registries](https://github.com/InteractiveAdvertisingBureau/ACIF/blob/main/ACIF%20Validation%20API.md#ad-registries)
+    - [Globally Unique Ad Creative Identifiers](https://github.com/InteractiveAdvertisingBureau/ACIF/blob/main/ACIF%20Validation%20API.md#globally-unique-ad-creative-identifiers)
+    - [UniversalAdId Validation](https://github.com/InteractiveAdvertisingBureau/ACIF/blob/main/ACIF%20Validation%20API.md#universaladid-validation)
+    -[ Ad registration for ads with multiple creative ](https://github.com/InteractiveAdvertisingBureau/ACIF/blob/main/ACIF%20Validation%20API.md#ad-registration-for-ads-with-multiple-creative)
+- [The Validation Request](https://github.com/InteractiveAdvertisingBureau/ACIF/blob/main/ACIF%20Validation%20API.md#the-validation-request)
+  - [Where to Find the UniversalAdId](https://github.com/InteractiveAdvertisingBureau/ACIF/blob/main/ACIF%20Validation%20API.md#where-to-find-the-universaladid)
+  - [About the UniversalAdId in VAST](https://github.com/InteractiveAdvertisingBureau/ACIF/blob/main/ACIF%20Validation%20API.md#about-the-universaladid-in-vast)
+  - [When and Where to Send a Validation Request](https://github.com/InteractiveAdvertisingBureau/ACIF/blob/main/ACIF%20Validation%20API.md#when-and-where-to-send-a-validation-request)
+  - [URL Character Escaping](https://github.com/InteractiveAdvertisingBureau/ACIF/blob/main/ACIF%20Validation%20API.md#url-character-escaping)
+  - [UniversalAddId Validation](https://github.com/InteractiveAdvertisingBureau/ACIF/blob/main/ACIF%20Validation%20API.md#universaladid-validation-1)
+  - [Open Validation with HEAD Request](https://github.com/InteractiveAdvertisingBureau/ACIF/blob/main/ACIF%20Validation%20API.md#open-validation-with-head-request)
+- [The Validation Response](https://github.com/InteractiveAdvertisingBureau/ACIF/blob/main/ACIF%20Validation%20API.md#the-validation-response)
+  - [Object: UniversalAdId](https://github.com/InteractiveAdvertisingBureau/ACIF/blob/main/ACIF%20Validation%20API.md#object-universaladid)
+  - [Object: Relationship](https://github.com/InteractiveAdvertisingBureau/ACIF/blob/main/ACIF%20Validation%20API.md#object-relationship)
+  - [Error Codes](https://github.com/InteractiveAdvertisingBureau/ACIF/blob/main/ACIF%20Validation%20API.md#error-codes)
+- [Testing Sandbox](https://github.com/InteractiveAdvertisingBureau/ACIF/blob/main/ACIF%20Validation%20API.md#testing-sandbox)
+- [Implementation Over Existing APIs](https://github.com/InteractiveAdvertisingBureau/ACIF/blob/main/ACIF%20Validation%20API.md#implementation-over-existing-apis)
+- [Examples](https://github.com/InteractiveAdvertisingBureau/ACIF/blob/main/ACIF%20Validation%20API.md#examples)
+  - [UniversalAdId Validation](https://github.com/InteractiveAdvertisingBureau/ACIF/blob/main/ACIF%20Validation%20API.md#universaladid-validation-2)
+  - [Open UniversalAdId Validation](https://github.com/InteractiveAdvertisingBureau/ACIF/blob/main/ACIF%20Validation%20API.md#open-universaladid-validation)
+  - [Validation of Unknown UniversalAdId](https://github.com/InteractiveAdvertisingBureau/ACIF/blob/main/ACIF%20Validation%20API.md#validation-of-unknown-universaladid)
 
 ## Executive Summary 
 
@@ -171,7 +171,7 @@ For a deeper level of validation that includes a response with metadata, the sam
 
 ### URL Character Escaping 
 
-For HTTP requests that include the UniversalAdId in the URL path or query string, the UniversalAdId value must be URL-escaped to encode any reserved non-alphanumeric characters, such as colon, forward slash, etc. For example, a validation GET operation for the UniversalAdId code “ABC/12345/030” would be escaped as https://acif.example.com/uaids/ABC%2F12345%2F030. 
+For HTTP requests that include the UniversalAdId in the URL path or query string, the UniversalAdId value must be URL-escaped to encode any reserved non-alphanumeric characters, such as colon, forward slash, etc. For example, a validation GET operation for the UniversalAdId code “ABC/12345/030” would be escaped as https://acif.example.com/uaids/ABC%2F12345%2F030.
 
 ### UniversalAdId Validation 
 
@@ -235,11 +235,12 @@ The relationship construct provides a very flexible means of associating other i
 
 When a valid response cannot be returned, standardized HTTP status codes may be returned as follows. 
 
+```javascript
 {
 error: “error type”,
 message: “detailed explanation” 
 } 
-
+```
 
 | Error |	Message |
 |---|---|
