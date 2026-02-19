@@ -21,24 +21,24 @@ IAB TECH LAB MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED, AS TO T
 
 ## Table of Contents 
 
-- Executive Summary
-- What is the Ad Creative ID Framework? 
-    - Benefits of ACIF
-      - Use Cases
-    - Components of ACIF
-- Ad Registration
-    - The Cost (of not registering ads)
-    - Workflow
-- Standardization in the Supply Chain
-    - Normalizing Use of VAST's Universal Ad ID
-      - Two Key Components
-      - VAST CTV Addendum 2024
-- ACIF Directory
-    - Overview of ACIF Specification Adoption
-      - How to Register
-      - Accessing Your Registration
-- Validation
-- Taking Action
+- [Executive Summary](https://github.com/InteractiveAdvertisingBureau/ACIF/blob/main/Ad%20Creative%20ID%20Framework%20v1.md#executive-summary)
+- [What is the Ad Creative ID Framework?](https://github.com/InteractiveAdvertisingBureau/ACIF/blob/main/Ad%20Creative%20ID%20Framework%20v1.md#what-is-the-ad-creative-id-framework)
+    - [Benefits of ACIF](https://github.com/InteractiveAdvertisingBureau/ACIF/blob/main/Ad%20Creative%20ID%20Framework%20v1.md#benefits-of-acif)
+      - [Use Cases](https://github.com/InteractiveAdvertisingBureau/ACIF/blob/main/Ad%20Creative%20ID%20Framework%20v1.md#use-cases)
+    - [Components of ACIF](https://github.com/InteractiveAdvertisingBureau/ACIF/blob/main/Ad%20Creative%20ID%20Framework%20v1.md#components-of-acif)
+- [Ad Registration](https://github.com/InteractiveAdvertisingBureau/ACIF/blob/main/Ad%20Creative%20ID%20Framework%20v1.md#ad-registration)
+    - [The Cost (of not registering ads)](https://github.com/InteractiveAdvertisingBureau/ACIF/blob/main/Ad%20Creative%20ID%20Framework%20v1.md#the-cost-of-not-registering-ads)
+    - [Workflow](https://github.com/InteractiveAdvertisingBureau/ACIF/blob/main/Ad%20Creative%20ID%20Framework%20v1.md#workflow)
+- [Standardization in the Supply Chain](https://github.com/InteractiveAdvertisingBureau/ACIF/blob/main/Ad%20Creative%20ID%20Framework%20v1.md#standardization-in-the-supply-chain)
+    - [Normalizing Use of VAST's Universal Ad ID](https://github.com/InteractiveAdvertisingBureau/ACIF/blob/main/Ad%20Creative%20ID%20Framework%20v1.md#normalizing-use-of-vasts-universal-ad-id)
+      - [Two Key Components](https://github.com/InteractiveAdvertisingBureau/ACIF/blob/main/Ad%20Creative%20ID%20Framework%20v1.md#two-key-components)
+      - [VAST CTV Addendum 2024](https://github.com/InteractiveAdvertisingBureau/ACIF/blob/main/Ad%20Creative%20ID%20Framework%20v1.md#vast-ctv-addendum-2024)
+- [ACIF Directory](https://github.com/InteractiveAdvertisingBureau/ACIF/blob/main/Ad%20Creative%20ID%20Framework%20v1.md#acif-directory)
+    - [Overview of ACIF Specification Adoption](https://github.com/InteractiveAdvertisingBureau/ACIF/blob/main/Ad%20Creative%20ID%20Framework%20v1.md#overview-of-acif-specification-adoption)
+      - [How to Register](https://github.com/InteractiveAdvertisingBureau/ACIF/blob/main/Ad%20Creative%20ID%20Framework%20v1.md#how-to-register)
+      - [Accessing Your Registration](https://github.com/InteractiveAdvertisingBureau/ACIF/blob/main/Ad%20Creative%20ID%20Framework%20v1.md#accessing-your-registration)
+- [Validation](https://github.com/InteractiveAdvertisingBureau/ACIF/blob/main/Ad%20Creative%20ID%20Framework%20v1.md#validation)
+-[Taking Action](https://github.com/InteractiveAdvertisingBureau/ACIF/blob/main/Ad%20Creative%20ID%20Framework%20v1.md#taking-action)
  
 ## Executive Summary 
 In the world of digital video, ads are packaged for delivery, typically using IAB Tech Lab’s Video Ad Serving Template (VAST) **NEED TO ADD NEW VAST LINK WHEN READY** . This package, or VAST tag, includes a link to the video file, links to other files that might accompany the video creative, tracking URLs, metadata about duration, category, the ad system serving the ad, and other details that help describe the ad. 
