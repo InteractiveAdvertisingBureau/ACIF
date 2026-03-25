@@ -11,7 +11,14 @@ The IAB Tech Lab Ad Creative ID Framework was conceived and developed by the [Ad
 The IAB Technology Laboratory is a nonprofit research and development consortium charged with producing and helping companies implement global industry technical standards and solutions. The goal of the Tech Lab is to reduce friction associated with the digital advertising and marketing supply chain while contributing to the safe growth of an industry. The IAB Tech Lab spearheads the development of technical standards, creates and maintains a code library to assist in rapid, cost-effective implementation of IAB standards, and establishes a test platform for companies to evaluate the compatibility of their technology solutions with IAB standards, which for 18 years have been the foundation for interoperability and profitable growth in the digital advertising supply chain. Further details about the IAB Technology Lab can be found at [https://iabtechlab.com](https://iabtechlab.com). 
 
 ### IAB Tech Lab lead
-Katie Stroud, Senior Product Manager, Ad Experiences
+Brad Pipkin, Direct Product
+
+### License 
+
+ACIF Validation API is licensed under a Creative Commons Attribution 3.0 License. To view a copy of this license, visit creativecommons.org/licenses/by/3.0/ or write to Creative Commons, 171 Second Street, Suite 300, San Francisco, CA 94105, USA.
+
+This specification was released under RAND mode.
+
 
 ### DISCLAIMER: 
 
