@@ -9,7 +9,7 @@ This API spec was initially drafted by Daniel Brackett of Extreme Reach and dona
 Please contact support@iabtechlab.com if you have any questions or comments about this document. This document and other related resources can be found on the IAB Tech Lab website at: [https://iabtechlab.com](https://iabtechlab.com)
 
 ### IAB Tech Lab Lead: 
-Katie Stroud, Senior Product Manager 
+Brad Pipkin, Director Product
 
 ### About IAB Tech Lab 
 
@@ -21,7 +21,9 @@ THE STANDARDS, THE SPECIFICATIONS, THE MEASUREMENT GUIDELINES, AND ANY OTHER MAT
 
 ### License 
 
-F/RAND which means fair, reasonable, and non-discriminatory terms, denoting “a voluntary licensing commitment that standards organizations often request from the owner of an intellectual property right (usually a patent) that is, or may become, essential to practice a technical standard. Put differently, a F/RAND commitment is a voluntary agreement between the standard-setting organization and the holder of standard-essential patents." ~[Wikipedia](https://en.wikipedia.org/wiki/Reasonable_and_non-discriminatory_licensing)
+ACIF Validation API is licensed under a Creative Commons Attribution 3.0 License. To view a copy of this license, visit creativecommons.org/licenses/by/3.0/ or write to Creative Commons, 171 Second Street, Suite 300, San Francisco, CA 94105, USA.
+
+This specification was released under RAND mode.
 
 ## Table of Contents
 
